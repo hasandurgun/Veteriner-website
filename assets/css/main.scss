@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+    font-family: "Google Sans", sans-serif;
+}
+
+header {
+    border: 1px solid #000;
+    background-color: #ccc;
+    nav {
+        .navbar-brand {
+            color: #e64040;
+        }
+        .navbar-collapse {
+            ul {
+                li {
+                    &.active {
+                        a {
+                            color: #000;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+main {
+    border: 1px solid #bf5d5d;
+}
+
+footer {
+    border: 1px solid #209fa3;
+}
